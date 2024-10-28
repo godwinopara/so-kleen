@@ -1,7 +1,7 @@
 import img from "../images/carpet.jpg";
 function Carpet() {
   return (
-    <section id="our-services">
+    <section className="mb-10" id="carpet">
       <img src={img} alt="services img" />
       <div className="max-w-[1150px] mx-auto">
         <div className="py-6">
