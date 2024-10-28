@@ -2,7 +2,7 @@ import img1 from "../images/hero-bg.jpg";
 
 function About() {
     return (
-        <section className="flex items-center min-h-[90vh] max-w-[1150px] mx-auto">
+        <section className="flex items-center min-h-[90vh] max-w-[1150px] mx-auto" id="about">
             <div>
                 <div className="flex items-center justify-between mb-8">
                     <div className="w-[55%]">
