@@ -6,8 +6,8 @@ function Navbar() {
     { text: "Janitorial Cleaning", href: "#our-services" },
     { text: "Carpet & Upholstery", href: "#carpet" },
     { text: "Marble Restoration", href: "#marble" },
-    { text: "Other Services", href: "other-services" },
-    { text: "Our Clients", href: "#ourclients" },
+    { text: "Other Services", href: "#other-services" },
+    { text: "Our Clients", href: "#our-clients" },
     { text: "Pest Control", href: "#pest-control" },
     { text: "Contact Us", href: "#contact" },
   ];
@@ -17,7 +17,9 @@ function Navbar() {
         {navlinks.map((navlink) => {
           return (
             <li>
-              <a className="text-white uppercase" href={navlink.href}>{navlink.text}</a>
+              <a className="text-white uppercase" href={navlink.href}>
+                {navlink.text}
+              </a>
             </li>
           );
         })}

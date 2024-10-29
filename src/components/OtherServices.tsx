@@ -2,7 +2,7 @@ import img from "../images/otherservices.jpg";
 
 const OtherServices = () => {
   return (
-    <section>
+    <section id="other-services">
       <img src={img} alt="our services" />
       <div className="mb-10 max-w-[1150px] mx-auto">
         <div className="mb-10">
