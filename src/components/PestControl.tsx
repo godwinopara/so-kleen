@@ -1,23 +1,25 @@
 import img from "../images/bugpro.jpg";
+import MobileLayout from "./MobileLayout";
 const PestControl = () => {
   return (
     <section id="pest-control">
       <div>
         <img src={img} alt="bug pro" />
       </div>
-      <div className="max-w-[1150px] mx-auto py-16">
-        <h2 className="text-8xl mb-6">
+      <div className="max-w-[1150px] mx-auto p-5 xl:p-0 xl:py-16">
+        <h2 className="text-4xl xl:text-8xl mb-6 font-bold">
           PEST CONTROL <br />
           (FUMIGATION)
         </h2>
-        <p className="text-xl font-bold my-10">
+        <hr className="bg-red-600 h-[7px] w-[80px] xl:hidden" />
+        <p className="text-xl font-bold my-6 xl:my-10">
           Click here to{" "}
           <a href="#" className="text-blue-700">
             visit
           </a>{" "}
           our pest control services website.{" "}
         </p>
-        <hr className="bg-red-600 h-[3px]" />
+        <hr className="bg-red-600 h-[3px] hidden xl:block" />
       </div>
     </section>
   );

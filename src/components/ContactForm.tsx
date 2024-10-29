@@ -1,9 +1,9 @@
 const ContactForm = () => {
   return (
     <section className="bg-red-600 text-white min-h-[90vh] flex items-center">
-      <div className="grid grid-cols-2 items-center gap-x-20 max-w-[1150px] mx-auto">
+      <div className="px-5 py-10 xl:p-0 xl:grid grid-cols-2 items-center gap-x-20 max-w-[1150px] mx-auto">
         <div>
-          <p className="text-3xl w-[85%]">
+          <p className="text-xl mb-10 xl:mb-0 xl:text-3xl xl:w-[85%]">
             We look forward to working with you. SAY HELLO, IT'S THE FIRST STEP
             TO A STRONG PARTNERSHIP.
           </p>
@@ -44,6 +44,9 @@ const ContactForm = () => {
               placeholder="Enter A Message"
             ></textarea>
           </div>
+          <button className="bg-white text-red-600 mt-8 h-[40px] rounded-sm w-[150px]">
+            Send
+          </button>
         </form>
       </div>
     </section>

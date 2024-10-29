@@ -1,10 +1,11 @@
 import img from "../images/otherservices.jpg";
+import MobileLayout from "./MobileLayout";
 
 const OtherServices = () => {
   return (
     <section id="other-services">
       <img src={img} alt="our services" />
-      <div className="mb-10 max-w-[1150px] mx-auto">
+      <div className="hidden xl:block mb-10 max-w-[1150px] mx-auto">
         <div className="mb-10">
           <div className="">
             <h2 className="text-7xl mt-8 mb-8 font-bold">Other Services</h2>
@@ -125,6 +126,13 @@ const OtherServices = () => {
           </div>
         </div>
       </div>
+      <MobileLayout
+        title="Other Services"
+        desc="Whatever your cleaning needs we will adapt our cleaning services
+              to match your needs. We will discuss your requirements, design the
+              perfect cleaning specification and deliver the very best service
+              in tune with best hygiene practices."
+      />
     </section>
   );
 };
