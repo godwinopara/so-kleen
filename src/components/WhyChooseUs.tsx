@@ -1,10 +1,11 @@
 import img from "../images/why2.jpg";
+import MobileLayout from "./MobileLayout";
 const WhyChooseUs = () => {
   return (
     <section id="why">
       <img src={img} alt="our services" />
-      <div className="p-5 xl:p-0 xl:mb-10 max-w-[1150px] mx-auto">
-        <div className="mb-10">
+      <div className="xl:mb-10 max-w-[1150px] mx-auto">
+        <div className="xl:mb-10">
           <div className="">
             <h2 className="hidden xl:block text-7xl mt-8 mb-8 font-bold">
               Why Choose Us?
@@ -12,31 +13,6 @@ const WhyChooseUs = () => {
             <h3 className="hidden xl:block text-xl font-bold mb-5">
               CARING FOR YOUR PREMISES
             </h3>
-            {/* Mobile Content */}
-            <div className="mb-5">
-              <h2 className="text-4xl uppercase mb-2 font-bold xl:hidden">
-                Why Choose Us?
-              </h2>
-              <hr className="bg-red-600 h-[7px] w-[80px] xl:hidden" />
-            </div>
-
-            <div className="xl:hidden">
-              <p>
-                We genuinely care about the buildings we work in. The way your
-                space is presented speaks volume, and the responsibility for
-                this will always start and end with us. Above all, we want to
-                help you to free up your time so that you can do what you do
-                best.
-              </p>
-              {/* Mobile Button */}
-              <button className="bg-red-600 uppercase font-bold text-white rounded-sm  h-[40px] w-[150px] px-4 mt-5 ">
-                Read More
-              </button>
-              {/* ========== */}
-            </div>
-
-            {/* ====================== */}
-
             <p className="font-semibold text-xl mb-10 hidden xl:block">
               Having a clean building is about making a great impression,
               creating an endearing environment for visitors and clients, and
@@ -111,6 +87,15 @@ const WhyChooseUs = () => {
           </div>
         </div>
       </div>
+      {/* ========================== */}
+      {/* ===== Mobile Content ===== */}
+      <MobileLayout
+        title="Why Choose Us?"
+        desc="We genuinely care about the buildings we work in. The way your
+              space is presented speaks volume, and the responsibility for this
+              will always start and end with us. Above all, we want to help you
+              to free up your time so that you can do what you do best."
+      />
     </section>
   );
 };

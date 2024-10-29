@@ -1,10 +1,11 @@
 import img from "../images/office.jpg";
+import MobileLayout from "./MobileLayout";
 
 function OurServices() {
   return (
     <section id="our-services">
       <img src={img} alt="services img" />
-      <div className="max-w-[1150px] mx-auto mb-10">
+      <div className="hidden xl:block max-w-[1150px] mx-auto mb-10">
         <div className="py-6">
           <h2 className="text-7xl mt-8 mb-8 font-bold">
             Janitorial/Office Cleaning
@@ -26,7 +27,9 @@ function OurServices() {
             We provide high quality, cost-effective office cleaning solutions,
             and currently work with a number of companies across Lagos.{" "}
           </p>
-          <h3 className="uppercase mb-6 font-bold text-xl text-red-600">Our janitorial cleaning plan</h3>
+          <h3 className="uppercase mb-6 font-bold text-xl text-red-600">
+            Our janitorial cleaning plan
+          </h3>
           <p className="mb-6">
             We will draw up a plan to cater for your specific requirements and
             will work at a time that is most convenient for you and your staff.
@@ -52,6 +55,15 @@ function OurServices() {
           </ul>
         </div>
       </div>
+
+      {/* ============== Mobile Content ==================== */}
+      <MobileLayout
+        title="Janitorial/Office Cleaning"
+        desc=" Whatever your business, organization or sector, we'll adapt our
+            cleaning services to match your needs. We will discuss your
+            requirements, design the perfect office cleaning specification and
+            deliver the very best service in tune with best hygiene practices."
+      />
     </section>
   );
 }
