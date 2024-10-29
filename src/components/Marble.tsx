@@ -1,10 +1,11 @@
 import img from "../images/marble.jpg";
+import MobileLayout from "./MobileLayout";
 
 const Marble = () => {
   return (
     <section id="marble">
       <img src={img} alt="services img" />
-      <div className="max-w-[1150px] mx-auto mb-10">
+      <div className="hidden xl:block max-w-[1150px] mx-auto mb-10">
         <div className="py-6">
           <h2 className="text-7xl mt-8 mb-8 font-bold">Marble Restoration</h2>
 
@@ -58,6 +59,17 @@ const Marble = () => {
           <p>PLEASE FEEL FREE TO CALL US FOR A FREE SAMPLE.</p>
         </div>
       </div>
+
+      {/* =============== Mobile Content =============== */}
+      <MobileLayout
+        title="Marble Restoration"
+        desc="Marble is an expensive investment and we believe that replacing it
+            when dull isn’t the smart choice. Instead, utilize our low-cost
+            marble restoration services that will restore the shine and mirror
+            finish of the existing marble no matter the marbles age. Our
+            step-by-step marble restoration process offers guaranteed results
+            that uplift the original colour of the marble."
+      />
     </section>
   );
 };

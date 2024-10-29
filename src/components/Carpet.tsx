@@ -1,9 +1,10 @@
 import img from "../images/carpet.jpg";
+import MobileLayout from "./MobileLayout";
 function Carpet() {
   return (
     <section className="mb-10" id="carpet">
       <img src={img} alt="services img" />
-      <div className="max-w-[1150px] mx-auto">
+      <div className="hidden xl:block max-w-[1150px] mx-auto">
         <div className="py-6">
           <h2 className="text-7xl mt-8 mb-8 font-bold">
             Carpet And Upholstery
@@ -59,6 +60,13 @@ function Carpet() {
           </p>
         </div>
       </div>
+
+      {/* =============== Mobile Content ================== */}
+      <MobileLayout
+        title="Carpet And Upholstery"
+        desc="Carpets and upholsteries are an expensive investment and are
+            constantly receiving high wear on a daily basis."
+      />
     </section>
   );
 }
