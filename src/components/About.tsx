@@ -18,7 +18,7 @@ function About() {
                 <h2 className="text-4xl uppercase mb-2 font-bold xl:hidden">
                   About Us
                 </h2>
-                <hr className="bg-red-600 h-[7px] w-[80px]" />
+                <hr className="bg-red-600 h-[7px] w-[80px] xl:hidden" />
               </div>
               {/* ====================== */}
               <div className="xl:text-xl">
@@ -36,7 +36,7 @@ function About() {
               </div>
 
               {/* Mobile Button */}
-              <button className="bg-red-600 uppercase font-bold text-white rounded-sm  h-[40px] w-[150px] px-4 mt-5">
+              <button className="bg-red-600 uppercase font-bold text-white rounded-sm  h-[40px] w-[150px] px-4 mt-5 xl:hidden">
                 Read More
               </button>
               {/* ========== */}
