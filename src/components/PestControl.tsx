@@ -1,7 +1,7 @@
 import img from "../images/bugpro.jpg";
 const PestControl = () => {
   return (
-    <section>
+    <section id="pest-control">
       <div>
         <img src={img} alt="bug pro" />
       </div>

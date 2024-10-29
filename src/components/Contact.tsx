@@ -2,7 +2,7 @@ import img from "../images/phone.png";
 
 const Contact = () => {
   return (
-    <section className=" bg-neutral-200 p-8">
+    <section className=" bg-neutral-200 p-8" id="contact">
       <div className="grid grid-cols-2 items-center max-w-[1150px] mx-auto">
         <div>
           <h2 className="text-7xl mb-8">Contact Us</h2>

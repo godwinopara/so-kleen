@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply overflow-x-hidden;
+  }
+  input {
+    @apply bg-transparent border border-white block w-full py-3 px-5 rounded-sm;
+  }
+  textarea {
+    @apply bg-transparent block w-full border border-white p-5 rounded-sm;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    @apply text-white;
+  }
+
+  label {
+    @apply block my-3;
+  }
+}
