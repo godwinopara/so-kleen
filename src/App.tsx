@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Carpet from "./components/Carpet";
 import Clients from "./components/Clients";
+import Contact from "./components/Contact";
 import HeaderCarousel from "./components/HeaderCarousel";
 import Marble from "./components/Marble";
 import Navbar from "./components/Navbar";
@@ -22,6 +23,7 @@ function App() {
       <OtherServices />
       <Clients />
       <PestControl />
+      <Contact />
     </>
   );
 }
