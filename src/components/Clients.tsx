@@ -1,5 +1,4 @@
 import img from "../images/so-kleen-clients.jpg";
-import MobileLayout from "./MobileLayout";
 
 const Clients = () => {
   return (
@@ -27,7 +26,7 @@ const Clients = () => {
 
       <div className="px-5">
         <div className="mb-5">
-          <h2 className="text-4xl uppercase mb-2 font-bold xl:hidden">
+          <h2 className="text-3xl uppercase mb-2 font-bold xl:hidden">
             Our Clients
           </h2>
           <hr className="bg-red-600 h-[7px] w-[80px] xl:hidden" />

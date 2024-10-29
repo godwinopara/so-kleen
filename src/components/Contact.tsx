@@ -8,7 +8,7 @@ const Contact = () => {
           <h2 className="hidden xl:block text-7xl mb-8">Contact Us</h2>
           {/* Mobile Content */}
           <div className="mb-5">
-            <h2 className="text-4xl uppercase mb-2 font-bold xl:hidden">
+            <h2 className="text-3xl uppercase mb-2 font-bold xl:hidden">
               Contact Us
             </h2>
             <hr className="bg-red-600 h-[7px] w-[80px] xl:hidden" />

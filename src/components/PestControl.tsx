@@ -1,5 +1,4 @@
 import img from "../images/bugpro.jpg";
-import MobileLayout from "./MobileLayout";
 const PestControl = () => {
   return (
     <section id="pest-control">
@@ -7,13 +6,13 @@ const PestControl = () => {
         <img src={img} alt="bug pro" />
       </div>
       <div className="max-w-[1150px] mx-auto p-5 xl:p-0 xl:py-16">
-        <h2 className="text-4xl xl:text-8xl mb-6 font-bold">
+        <h2 className="text-3xl xl:text-8xl mb-6 font-bold">
           PEST CONTROL <br />
           (FUMIGATION)
         </h2>
         <hr className="bg-red-600 h-[7px] w-[80px] xl:hidden" />
         <p className="text-xl font-bold my-6 xl:my-10">
-          Click here to{" "}
+          Click here to {/* eslint-disable-next-line */}
           <a href="#" className="text-blue-700">
             visit
           </a>{" "}
