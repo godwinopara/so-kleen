@@ -3,7 +3,11 @@ const PestControl = () => {
   return (
     <section id="pest-control">
       <div>
-        <img src={img} alt="bug pro" />
+        <img
+          src={img}
+          alt="bug pro"
+          className="h-[493.233px] w-full object-center object-cover"
+        />
       </div>
       <div className="max-w-[1150px] mx-auto p-5 xl:p-0 xl:py-16">
         <h2 className="text-3xl xl:text-8xl mb-6 font-bold">

@@ -4,17 +4,19 @@ import MobileLayout from "./MobileLayout";
 function About() {
   return (
     <section
-      className="flex items-center xl:min-h-[90vh] max-w-[1150px] mx-auto"
+      className="flex items-center xl:min-h-[90vh] max-w-[1150px] mx-auto xl:mb-20"
       id="about"
     >
       <div className="hidden xl:block">
         <div className="flex items-center justify-between mb-8">
           <div className="w-[55%]">
             <div className="mb-8">
-              <h2 className="text-7xl mb-6 font-bold">About So-Kleen</h2>
+              <h2 className="text-7xl mb-6 font-bold">
+                About Reds Cleaning Services
+              </h2>
               <div className="text-xl">
                 <p className="mb-3 font-semibold">
-                  So-kleen limited is a professional cleaning and space
+                  Reds Cleaning Services is a professional cleaning and space
                   brightening company.
                 </p>
                 <p className="font-semibold">
@@ -50,7 +52,7 @@ function About() {
       </div>
       <MobileLayout
         title="About Us"
-        desc="So-kleen limited is a professional cleaning and space brightening company."
+        desc="Reds Cleaning Services is a professional cleaning and space brightening company."
       />
     </section>
   );

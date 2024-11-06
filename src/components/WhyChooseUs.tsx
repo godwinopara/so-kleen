@@ -3,7 +3,11 @@ import MobileLayout from "./MobileLayout";
 const WhyChooseUs = () => {
   return (
     <section id="why">
-      <img src={img} alt="our services" />
+      <img
+        src={img}
+        alt="our services"
+        className="xl:h-[493.233px] xl:w-full xl:object-top xl:object-cover"
+      />
       <div className="xl:mb-10 max-w-[1150px] mx-auto">
         <div className="xl:mb-10">
           <div className="">

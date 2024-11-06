@@ -4,7 +4,11 @@ import MobileLayout from "./MobileLayout";
 const OtherServices = () => {
   return (
     <section id="other-services">
-      <img src={img} alt="our services" />
+      <img
+        src={img}
+        alt="our services"
+        className="h-[493.233px] w-full object-top object-cover"
+      />
       <div className="hidden xl:block mb-10 max-w-[1150px] mx-auto">
         <div className="mb-10">
           <div className="">
@@ -25,10 +29,10 @@ const OtherServices = () => {
               Post -Construction/Renovation Cleaning
             </h3>
             <p>
-              So-Kleen Ltd Is Undisputedly The Most Detailed Post Construction
-              Cleaning Company In Nigeria, We Possess All The Required Human And
-              Material Resources To Deliver Efficient Cleaning Services To Meet
-              Your Needs..
+              Reds Cleaning Services Ltd Is Undisputedly The Most Detailed Post
+              Construction Cleaning Company In Nigeria, We Possess All The
+              Required Human And Material Resources To Deliver Efficient
+              Cleaning Services To Meet Your Needs..
             </p>
             <br />
             <p>

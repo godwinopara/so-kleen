@@ -3,7 +3,11 @@ import MobileLayout from "./MobileLayout";
 function Carpet() {
   return (
     <section className="mb-10" id="carpet">
-      <img src={img} alt="services img" />
+      <img
+        src={img}
+        alt="services img"
+        className="h-[493.233px] w-full object-center object-cover"
+      />
       <div className="hidden xl:block max-w-[1150px] mx-auto">
         <div className="py-6">
           <h2 className="text-7xl mt-8 mb-8 font-bold">
