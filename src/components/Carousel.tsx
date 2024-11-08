@@ -49,7 +49,7 @@ const Carousel = () => {
           <a
             href="https://wa.me/14373762702"
             target="_blank"
-            rel="no-referrer"
+            rel="noreferrer"
             className="bg-green-600 flex items-center justify-center p-3 text-xl rounded-full text-white"
           >
             <IoLogoWhatsapp />
