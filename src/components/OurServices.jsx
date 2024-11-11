@@ -84,10 +84,11 @@ function OurServices() {
       {/* ============== Mobile Content ==================== */}
       <MobileLayout
         title="Janitorial/Office Cleaning"
-        desc=" Whatever your business, organization or sector, we'll adapt our
-            cleaning services to match your needs. We will discuss your
-            requirements, design the perfect office cleaning specification and
-            deliver the very best service in tune with best hygiene practices."
+        desc=" No matter your business, organization, or sector, we tailor our
+            cleaning services to meet your specific needs. We’ll take the time
+            to understand your requirements, create a customized cleaning plan,
+            and provide the highest quality service, all while adhering to the
+            best hygiene and safety practices."
       />
     </section>
   );

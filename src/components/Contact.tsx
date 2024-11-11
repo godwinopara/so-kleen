@@ -17,12 +17,12 @@ const Contact = () => {
           <div className="mb-5">
             <h4 className="font-bold text-xl">Office:</h4>
             <p className="text-lg">
-              16B Bashorun Okusanya Lekki Phase 1, Lagos
+              82 HEMAN STREET, M8V 1X5, ETIOBICOKE CANADA.
             </p>
           </div>
           <div className="mb-8 xl:mb-0">
             <h4 className="font-bold text-xl">Email:</h4>
-            <p className="text-lg">office@so-kleen.com.ng</p>
+            <p className="text-lg">office@redcleaningservices.com.ng</p>
           </div>
         </div>
         <div>

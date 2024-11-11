@@ -14,10 +14,12 @@ const OtherServices = () => {
           <div className="">
             <h2 className="text-7xl mt-8 mb-8 font-bold">Other Services</h2>
             <p className="font-semibold text-xl mb-10">
-              Whatever your cleaning needs we will adapt our cleaning services
-              to match your needs. We will discuss your requirements, design the
-              perfect cleaning specification and deliver the very best service
-              in tune with best hygiene practices.
+              Whatever your cleaning needs, we’ll tailor our services to fit
+              your specific requirements. We take the time to understand your
+              needs, create a customized cleaning plan, and deliver the highest
+              quality service, all while adhering to the best hygiene and safety
+              practices. Your satisfaction is our priority, and we’ll ensure
+              every detail is handled with care.
             </p>
 
             <hr className="bg-red-500 h-[3px]" />
@@ -29,10 +31,11 @@ const OtherServices = () => {
               Post -Construction/Renovation Cleaning
             </h3>
             <p>
-              Reds Cleaning Services Ltd Is Undisputedly The Most Detailed Post
-              Construction Cleaning Company In Nigeria, We Possess All The
-              Required Human And Material Resources To Deliver Efficient
-              Cleaning Services To Meet Your Needs..
+              Reds Cleaning Services Ltd is proudly recognized as the most
+              detailed post-construction cleaning company in Nigeria. We have
+              the expertise, human resources, and equipment to provide
+              efficient, top-quality cleaning services tailored to meet your
+              needs.
             </p>
             <br />
             <p>
@@ -42,27 +45,52 @@ const OtherServices = () => {
             <br />
 
             <ul className="list-disc list-inside pl-8">
-              <li>Washing All Surfaces</li>
               <li>
-                High Dust Removal From Ceiling Pipes, Duct Work, Vents, Light
-                Fixtures, Etc.
+                <strong>Washing all surfaces:</strong> Thorough cleaning of
+                every surface to remove dust, dirt, and debris.
               </li>
               <li>
-                Stain Removal, Scrubbing, Dusting And Vacuuming Of All Surfaces.
-              </li>
-              <li>Cleaning Of The Insides Of Desks And File Cabinets.</li>
-              <li>
-                Detailed Scrubbing And Sanitizing Of Kitchens And Bathrooms To
-                Make Them Ready For Your Use.
+                <strong>High dust removal:</strong> We clean ceiling pipes,
+                ductwork, vents, light fixtures, and more, eliminating built-up
+                dust from every corner.
               </li>
               <li>
-                Scrub Floors And Tiles, Polish Stainless Steel, Wipe Walls And
-                More.
+                <strong>
+                  Stain removal, scrubbing, dusting, and vacuuming:
+                </strong>
+                We tackle stains and perform meticulous dusting and vacuuming of
+                all surfaces.
               </li>
-              <li>Floor Cleaning, Waxing And Buffing</li>
-              <li>Cleaning Window Sills And Window Frames</li>
               <li>
-                Window And Glass Cleaning Including Scraping And Etching Removal
+                <strong>Cleaning insides of desks and file cabinets:</strong> We
+                clean the interiors of desks, cabinets, and drawers to remove
+                construction dust and debris.
+              </li>
+              <li>
+                <strong>
+                  Detailed kitchen and bathroom scrubbing and sanitizing:
+                </strong>
+                We make your kitchens and bathrooms sparkle, ensuring they're
+                fully sanitized and ready for use.
+              </li>
+              <li>
+                <strong>Floor scrubbing, polishing, and tile cleaning:</strong>{" "}
+                We scrub floors, polish stainless steel, wipe walls, and tackle
+                tile cleaning for a flawless finish.
+              </li>
+              <li>
+                <strong>Floor waxing and buffing:</strong> We restore your
+                floors with professional waxing and buffing services for a
+                glossy, smooth appearance.
+              </li>
+              <li>
+                <strong>Cleaning window sills and frames:</strong> We clean and
+                sanitize window sills and frames, ensuring they look pristine.
+              </li>
+              <li>
+                <strong>Window and glass cleaning: </strong>Our team removes
+                streaks, stains, scraping marks, and etching, leaving your
+                windows and glass sparkling clean.
               </li>
             </ul>
             <br />
@@ -71,10 +99,12 @@ const OtherServices = () => {
                 Window Cleaning
               </h3>
               <p>
-                We Offer A Thorough, High Quality Window Cleaning Service, Using
-                Professional Cleaning Materials And Equipment. Our Competitive
-                Prices And Reliable Service Guarantee That You Will See A
-                Noticeable Difference In Your Home Or Office.
+                We offer a thorough, high-quality window cleaning service, using
+                professional-grade cleaning materials and equipment. Our
+                competitive prices and reliable service ensure that you’ll see a
+                noticeable difference in the clarity and shine of your windows,
+                whether at home or in the office. You can count on us for
+                streak-free results that enhance the appearance of your space.
               </p>
             </div>
             <br />
@@ -83,10 +113,13 @@ const OtherServices = () => {
                 End Of Tenancy Cleaning
               </h3>
               <p>
-                Moving Houses? Our Professional End Of Tenancy Cleaning Service
-                Offers A Thorough Deep Clean Of The Entire Property, In
-                Preparation For The Start Or End Of A Tenancy. We Are Very
-                Experienced In This Area And Have Many Satisfied Customers.
+                Moving houses? Our professional end-of-tenancy cleaning service
+                provides a comprehensive deep clean of the entire property,
+                ensuring it's in pristine condition for the start or end of a
+                tenancy. With years of experience in this area, we have earned
+                the trust of many satisfied customers who rely on us for a
+                seamless, hassle-free cleaning experience. Let us take care of
+                the details so you can focus on your move.
               </p>
             </div>
           </div>
@@ -95,12 +128,19 @@ const OtherServices = () => {
               Floor Care And Maintenance
             </h3>
             <p>
-              Hard Surface Flooring - Such As Tile, Vinyl, Terrazzo, Granite And
-              Marble – Requires Technical Knowledge To Properly Clean And
-              Maintain. As A Janitorial Services Company, We Continually Train
-              Our Technicians On New And Effective Trends In Floor Maintenance.
-              Keep Your Hardwood And Tile Flooring Clean And Looking Great With
-              Our Professional Services:
+              Hard surface flooring—such as tile, vinyl, terrazzo, granite, and
+              marble—requires specialized knowledge for proper cleaning and
+              maintenance. As a trusted janitorial services company, we
+              continually train our technicians on the latest techniques and
+              effective trends in floor care.
+            </p>
+            <br />
+            <p>
+              Keep your hardwood and tile floors looking pristine with our
+              professional cleaning and maintenance services, designed to
+              enhance their longevity and appearance. Whether it’s restoring
+              shine, removing stains, or regular upkeep, we ensure your floors
+              stay clean, beautiful, and well-maintained.
             </p>
             <ul className="list-disc list-inside pl-8 mb-5">
               <li>Strip, Seal And Polish Floors (Marble, Terrazzo, Ceramic)</li>
@@ -132,10 +172,12 @@ const OtherServices = () => {
       </div>
       <MobileLayout
         title="Other Services"
-        desc="Whatever your cleaning needs we will adapt our cleaning services
-              to match your needs. We will discuss your requirements, design the
-              perfect cleaning specification and deliver the very best service
-              in tune with best hygiene practices."
+        desc="Whatever your cleaning needs, we’ll tailor our services to fit
+              your specific requirements. We take the time to understand your
+              needs, create a customized cleaning plan, and deliver the highest
+              quality service, all while adhering to the best hygiene and safety
+              practices. Your satisfaction is our priority, and we’ll ensure
+              every detail is handled with care."
       />
     </section>
   );

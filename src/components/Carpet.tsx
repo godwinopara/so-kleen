@@ -74,8 +74,13 @@ function Carpet() {
       {/* =============== Mobile Content ================== */}
       <MobileLayout
         title="Carpet And Upholstery"
-        desc="Carpets and upholsteries are an expensive investment and are
-            constantly receiving high wear on a daily basis."
+        desc="Carpets and upholstery are significant investments that endure daily
+            wear and tear. While routine vacuuming is essential, it must be
+            complemented by specialized periodic cleaning programs designed to
+            both preserve and protect these surfaces. This ensures that your
+            carpets and upholstery not only maintain a pristine appearance but
+            also contribute to a healthier environment, creating the right
+            visual impression for your space."
       />
     </section>
   );

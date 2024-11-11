@@ -1,17 +1,17 @@
-import img1 from "../images/hero-bg.jpeg";
+import img1 from "../images/about.jpeg";
 import MobileLayout from "./MobileLayout";
 
 function About() {
   return (
     <section
-      className="flex items-center xl:min-h-[90vh] max-w-[1150px] mx-auto xl:mb-20"
+      className="flex items-center xl:min-h-[120vh] max-w-[1150px] mx-auto xl:mb-20"
       id="about"
     >
       <div className="hidden xl:block">
         <div className="flex items-center justify-between mb-8">
-          <div className="w-[55%]">
+          <div className="w-[50%]">
             <div className="mb-8">
-              <h2 className="text-7xl mb-6 font-bold">
+              <h2 className="text-6xl mb-6 font-bold">
                 About Reds Cleaning Services
               </h2>
               <div className="text-xl">
@@ -32,7 +32,7 @@ function About() {
             </div>
             <hr className="bg-red-500 h-[3px]" />
           </div>
-          <div className="w-[40%]">
+          <div className="w-[42%]">
             <img src={img1} alt="" />
           </div>
         </div>
