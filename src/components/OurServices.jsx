@@ -16,46 +16,67 @@ function OurServices() {
           </h2>
 
           <p className="font-semibold text-xl mb-10">
-            Whatever your business, organization or sector, we'll adapt our
-            cleaning services to match your needs. We will discuss your
-            requirements, design the perfect office cleaning specification and
-            deliver the very best service in tune with best hygiene practices.
+            No matter your business, organization, or sector, we tailor our
+            cleaning services to meet your specific needs. We’ll take the time
+            to understand your requirements, create a customized cleaning plan,
+            and provide the highest quality service, all while adhering to the
+            best hygiene and safety practices.
           </p>
 
           <hr className="bg-red-500 h-[3px]" />
         </div>
         <div className="py-6">
           <p className="mb-6">
-            A clean and hygienic office is a more productive place for your
-            staff to work and a more pleasant place for your clients to visit.
-            We provide high quality, cost-effective office cleaning solutions,
-            and currently work with a number of companies across Lagos.{" "}
+            A clean and hygienic office not only boosts staff productivity but
+            also creates a more welcoming environment for clients. We offer
+            high-quality, cost-effective office cleaning solutions, and are
+            proud to serve a diverse range of businesses, helping them maintain
+            pristine, professional spaces.
           </p>
           <h3 className="uppercase mb-6 font-bold text-xl text-red-600">
             Our janitorial cleaning plan
           </h3>
           <p className="mb-6">
-            We will draw up a plan to cater for your specific requirements and
-            will work at a time that is most convenient for you and your staff.
-            Your Account Manager will take personal responsibility for the
-            cleaning work at your offices, and will make regular site visits in
-            order to audit the work of our janitors. Your Account Manager will
-            also be contactable by you at any time, and will be keen to meet
-            with you on a regular basis to discuss our work. Our janitorial
-            service includes:
+            We’ll create a customized cleaning plan tailored to your specific
+            needs and work around the schedules that are most convenient for you
+            and your team. Your dedicated Account Manager will oversee all
+            cleaning activities at your offices, conducting regular site visits
+            to audit the quality of our janitorial work. They’ll also be
+            available at any time to address your concerns and will meet with
+            you regularly to ensure our services are always meeting your
+            expectations.
           </p>
-          <ul className="list-disc list-inside pl-6">
+          <p>Our janitorial service includes:</p>
+          <br />
+
+          <ul className="list-disc list-inside pl-6 grid gap-y-1">
             <li>
-              Uniformed and experienced cleaning staff/ uniformed, trained and
-              vetted (well kitted)janitors
+              <strong>Uniformed and experienced cleaning staff:</strong> Our
+              janitors are well-trained, fully vetted, and equipped with the
+              proper uniforms and tools.
             </li>
-            <li>Backup janitors always on standby</li>
-            <li>Our Personal Management System</li>
             <li>
-              Provision of all equipment/consumables included in the price
+              <strong>Backup janitors on standby:</strong> We ensure continuity
+              of service with backup staff ready at all times.
             </li>
-            <li>A responsible approach to Health & Safety</li>
-            <li>Environmentally aware working practices</li>
+            <li>
+              <strong>Personalized management system:</strong> We provide a
+              tailored approach to meet your specific needs.
+            </li>
+            <li>
+              <strong>All-inclusive service:</strong> We supply all necessary
+              equipment and consumables, with no additional charges.
+            </li>
+            <li>
+              <strong>Health & Safety commitment:</strong> We take a responsible
+              approach to ensure safe working practices are followed at all
+              times.
+            </li>
+            <li>
+              <strong>Eco-friendly practices:</strong> Our environmentally aware
+              cleaning methods help reduce the environmental impact of our
+              services
+            </li>
           </ul>
         </div>
       </div>

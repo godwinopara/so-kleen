@@ -56,7 +56,9 @@ function About() {
       </div>
       <MobileLayout
         title="About Us"
-        desc="Reds Cleaning Services is a professional cleaning and space brightening company."
+        desc="Reds Cleaning Services is a professional cleaning company
+                  dedicated to brightening spaces and providing top-notch
+                  cleaning solutions."
       />
     </section>
   );

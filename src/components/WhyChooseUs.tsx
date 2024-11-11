@@ -18,9 +18,12 @@ const WhyChooseUs = () => {
               CARING FOR YOUR PREMISES
             </h3>
             <p className="font-semibold text-xl mb-10 hidden xl:block">
-              Having a clean building is about making a great impression,
-              creating an endearing environment for visitors and clients, and
-              maintaining a productive environment for your staff.
+              At Reds Cleaning Services, we take pride in treating your space
+              with the utmost care and respect. Whether it’s a home, office, or
+              commercial property, we understand that every environment is
+              unique and requires personalized attention. Our team is committed
+              to delivering cleaning solutions that not only maintain but
+              enhance the beauty and functionality of your premises.
             </p>
 
             <hr className="bg-red-500 h-[3px] hidden xl:block" />
@@ -29,49 +32,65 @@ const WhyChooseUs = () => {
         <div className="hidden xl:grid grid-cols-2 gap-x-10 ">
           <div>
             <p>
-              We genuinely care about the buildings we work in. The way your
-              space is presented speaks volume, and the responsibility for this
-              will always start and end with us. Above all, we want to help you
-              to free up your time so that you can do what you do best.
+              At Reds Cleaning Services, we take great pride in treating your
+              space with the utmost care and respect. Whether it’s a home,
+              office, or commercial property, we recognize that every
+              environment is unique and deserves personalized attention. Our
+              team is dedicated to providing cleaning solutions that not only
+              preserve but also enhance the beauty, functionality, and longevity
+              of your premises.
             </p>
             <br />
             <p>
-              Customers continue to patronize us because of our impeccable
-              reputation, and solid work ethic. If you are on the fence
-              considering hiring a cleaning service, please consider the
-              following about our company:{" "}
+              Customers continue to choose us for our impeccable reputation and
+              strong work ethic. If you're still unsure about hiring a cleaning
+              service, here are a few reasons why Reds Cleaning Services stands
+              out:{" "}
             </p>
             <br />
-            <ul className="list-disc list-inside pl-8">
-              <li>We offer a professional yet very personable approach</li>
-              <li>We have high standards and a great attention to detail</li>
+            <ul className="list-disc list-inside pl-8 grid gap-y-3">
               <li>
-                We understand the responsibility we have for the work we do
+                <strong>Professional yet personable approach:</strong> We pride
+                ourselves on being approachable while maintaining the highest
+                level of professionalism.
               </li>
               <li>
-                Our team is made up of experienced and specialist personnel
+                <strong>High standards & attention to detail:</strong> Our
+                commitment to excellence means no detail goes overlooked.
               </li>
               <li>
-                {" "}
-                We are trusted exclusively by dozens of businesses and homes,
-                with references available.
+                <strong>Accountability:</strong> We fully understand the
+                responsibility we have for the quality of our work.
               </li>
               <li>
-                We are experienced, with the majority of our employees having
-                been with us for many years.
+                <strong>Experienced & specialized team:</strong> Our staff
+                consists of skilled professionals with extensive expertise in
+                cleaning.
               </li>
               <li>
-                We are knowledgeable and equipped; we know what cleaning
-                solutions should be used per scenario, and what the dangers they
-                can impose if not used correctly.
+                <strong>Trusted by businesses and homes:</strong> Dozens of
+                satisfied clients trust us exclusively—references are available
+                upon request.
               </li>
               <li>
-                Our cleaning process is supported by proactive managers who
-                uphold the highest quality assurance standards.
+                <strong>Long-term experience:</strong> Many of our team members
+                have been with us for years, bringing consistency and expertise
+                to every job.
               </li>
               <li>
-                We are undisputedly the most detailed cleaning company in the
-                industry, Period!
+                <strong>Knowledgeable & equipped:</strong> We know which
+                cleaning solutions are best for each scenario and understand the
+                risks of improper use.
+              </li>
+              <li>
+                <strong>Quality assurance:</strong>Our cleaning process is
+                overseen by proactive managers who ensure we meet the highest
+                standards.
+              </li>
+              <li>
+                <strong>Industry-leading attention to detail:</strong>We are,
+                without a doubt, the most meticulous cleaning company in the
+                business—period!
               </li>
             </ul>
           </div>
@@ -95,10 +114,13 @@ const WhyChooseUs = () => {
       {/* ===== Mobile Content ===== */}
       <MobileLayout
         title="Why Choose Us?"
-        desc="We genuinely care about the buildings we work in. The way your
-              space is presented speaks volume, and the responsibility for this
-              will always start and end with us. Above all, we want to help you
-              to free up your time so that you can do what you do best."
+        desc="At Reds Cleaning Services, we take great pride in treating your
+              space with the utmost care and respect. Whether it’s a home,
+              office, or commercial property, we recognize that every
+              environment is unique and deserves personalized attention. Our
+              team is dedicated to providing cleaning solutions that not only
+              preserve but also enhance the beauty, functionality, and longevity
+              of your premises."
       />
     </section>
   );
