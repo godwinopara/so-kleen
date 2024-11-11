@@ -1,4 +1,4 @@
-import img from "../images/why2.jpg";
+import img from "../images/why2.jpeg";
 import MobileLayout from "./MobileLayout";
 const WhyChooseUs = () => {
   return (

@@ -1,4 +1,4 @@
-import img1 from "../images/hero-bg.jpg";
+import img1 from "../images/hero-bg.jpeg";
 import MobileLayout from "./MobileLayout";
 
 function About() {
@@ -16,15 +16,17 @@ function About() {
               </h2>
               <div className="text-xl">
                 <p className="mb-3 font-semibold">
-                  Reds Cleaning Services is a professional cleaning and space
-                  brightening company.
+                  Reds Cleaning Services is a professional cleaning company
+                  dedicated to brightening spaces and providing top-notch
+                  cleaning solutions.
                 </p>
                 <p className="font-semibold">
-                  Founded in 2005, we quickly built a reputation as a leading
-                  provider of commercial and residential cleaning solution in
-                  the industry. Our solutions are designed to solve the mild to
-                  heavy dirt management problems that individuals, families and
-                  corporate organizations face.
+                  Founded in 2005, we’ve established ourselves as a trusted
+                  leader in both commercial and residential cleaning. Our
+                  services are tailored to address a wide range of cleaning
+                  challenges, from light upkeep to more demanding dirt and grime
+                  management, serving the needs of individuals, families, and
+                  businesses alike.
                 </p>
               </div>
             </div>
@@ -35,19 +37,21 @@ function About() {
           </div>
         </div>
         <p>
-          As an A-rated professional cleaning firm, we also know that a cleaner
-          environment supports a healthier, more productive and profitable
-          lifestyle; that is why our thorough cleaning service is made to leave
-          you happier and more satisfied.
+          As an A-rated professional cleaning company, we understand that a
+          clean environment is key to promoting a healthier, more productive,
+          and profitable lifestyle. That's why our comprehensive cleaning
+          services are designed not only to meet but exceed your expectations,
+          leaving you happier and more satisfied with every visit.
           <br />
           <br />
-          Our hands-on approach, coupled with our experience, our attention to
-          details and the professionalism exhibited by management, employees and
-          our commitment to customer satisfaction, sets us apart.
+          What sets us apart is our hands-on approach, combined with years of
+          experience, meticulous attention to detail, and a commitment to
+          excellence shared by our management team and staff. Our dedication to
+          customer satisfaction is at the heart of everything we do.
           <br />
           <br />
-          Our continuous pursuit of service perfection has resulted in
-          consistent growth each year.
+          This unwavering focus on service perfection has driven our consistent
+          growth year after year.
         </p>
       </div>
       <MobileLayout

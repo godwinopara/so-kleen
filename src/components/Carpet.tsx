@@ -1,4 +1,4 @@
-import img from "../images/carpet.jpg";
+import img from "../images/carpet.jpeg";
 import MobileLayout from "./MobileLayout";
 function Carpet() {
   return (

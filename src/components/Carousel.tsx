@@ -3,9 +3,9 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
 import { FiPhone } from "react-icons/fi";
 import { useState, useEffect } from "react";
-import herobg1 from "../images/hero-bg.jpg"; // Update with the correct path
-import herobg2 from "../images/hero-bg2.jpg"; // Update with the correct path
-import herobg3 from "../images/hero-bg3.jpg"; // Update with the correct path
+import herobg1 from "../images/hero-bg.jpeg"; // Update with the correct path
+import herobg2 from "../images/hero-bg2.jpeg"; // Update with the correct path
+import herobg3 from "../images/hero-bg3.jpeg"; // Update with the correct path
 
 const slides = [
   { id: 1, text: "Welcome to Our Website", image: herobg1 },

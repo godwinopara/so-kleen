@@ -1,4 +1,4 @@
-import img from "../images/otherservices.jpg";
+import img from "../images/otherservices.jpeg";
 import MobileLayout from "./MobileLayout";
 
 const OtherServices = () => {
@@ -7,7 +7,7 @@ const OtherServices = () => {
       <img
         src={img}
         alt="our services"
-        className="h-[493.233px] w-full object-top object-cover"
+        className="h-[490.233px] w-full object-top object-cover"
       />
       <div className="hidden xl:block mb-10 max-w-[1150px] mx-auto">
         <div className="mb-10">
