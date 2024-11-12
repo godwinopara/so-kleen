@@ -1,14 +1,22 @@
 import img from "../images/otherservices.jpeg";
+import img2 from "../images/otherservices-mobile.jpeg";
 import MobileLayout from "./MobileLayout";
 
 const OtherServices = () => {
   return (
     <section id="other-services">
-      <img
-        src={img}
-        alt="our services"
-        className="h-[490.233px] w-full object-top object-cover"
-      />
+      <div>
+        <img
+          src={img}
+          alt="our services"
+          className=" w-full object-top object-cover hidden lg:block"
+        />
+        <img
+          src={img2}
+          alt="our services"
+          className=" w-full object-top object-cover lg:hidden"
+        />
+      </div>
       <div className="hidden xl:block mb-10 max-w-[1150px] mx-auto">
         <div className="mb-10">
           <div className="">

@@ -1,10 +1,14 @@
 import img from "../images/marble.jpg";
+import img2 from "../images/marble-mobile.jpeg";
 import MobileLayout from "./MobileLayout";
 
 const Marble = () => {
   return (
     <section id="marble">
-      <img src={img} alt="services img" />
+      <div>
+        <img src={img} alt="services img" className="hidden lg:block" />
+        <img src={img2} alt="services img" className="block lg:hidden" />
+      </div>
       <div className="hidden xl:block max-w-[1150px] mx-auto mb-10">
         <div className="py-6">
           <h2 className="text-7xl mt-8 mb-8 font-bold">Marble Restoration</h2>

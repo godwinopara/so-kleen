@@ -1,13 +1,21 @@
 import img from "../images/carpet.jpeg";
+import imgMobile from "../images/carpet-mobile.jpeg";
 import MobileLayout from "./MobileLayout";
 function Carpet() {
   return (
     <section className="mb-10" id="carpet">
-      <img
-        src={img}
-        alt="services img"
-        className="h-[500.233px] w-full object-top object-cover"
-      />
+      <div>
+        <img
+          src={img}
+          alt="services img"
+          className="hidden lg:block w-full object-top object-cover"
+        />
+        <img
+          src={imgMobile}
+          alt="services img"
+          className="lg:hidden w-full object-top object-cover"
+        />
+      </div>
       <div className="hidden xl:block max-w-[1150px] mx-auto">
         <div className="py-6">
           <h2 className="text-7xl mt-8 mb-8 font-bold">

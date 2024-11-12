@@ -1,13 +1,21 @@
 import img from "../images/why2.jpeg";
+import img2 from "../images/why-mobile.jpeg";
 import MobileLayout from "./MobileLayout";
 const WhyChooseUs = () => {
   return (
     <section id="why">
-      <img
-        src={img}
-        alt="our services"
-        className="xl:h-[493.233px] xl:w-full xl:object-center xl:object-cover"
-      />
+      <div>
+        <img
+          src={img}
+          alt="our services"
+          className="w-full object-center object-cover hidden lg:block"
+        />
+        <img
+          src={img2}
+          alt="our services"
+          className="w-full object-center object-cover lg:hidden"
+        />
+      </div>
       <div className="xl:mb-10 max-w-[1150px] mx-auto">
         <div className="xl:mb-10">
           <div className="">
