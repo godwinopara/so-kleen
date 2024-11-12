@@ -89,6 +89,7 @@ function Carpet() {
             carpets and upholstery not only maintain a pristine appearance but
             also contribute to a healthier environment, creating the right
             visual impression for your space."
+        url="/carpet-upholstery"
       />
     </section>
   );

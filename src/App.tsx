@@ -1,32 +1,23 @@
-import About from "./components/About";
-import Carousel from "./components/Carousel";
-import Carpet from "./components/Carpet";
-import Clients from "./components/Clients";
-import Contact from "./components/Contact";
-import ContactForm from "./components/ContactForm";
-import Marble from "./components/Marble";
-import Nav from "./components/Nav";
-import OtherServices from "./components/OtherServices";
-import OurServices from "./components/OurServices";
-import PestControl from "./components/PestControl";
-import WhyChooseUs from "./components/WhyChooseUs";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/HomeMobile";
+import AboutMobile from "./pages/AboutMobile";
+import CarpetsUpholstery from "./pages/CarpetsUpholstery";
+import JanitorialMobile from "./pages/JanitorialMobile";
+import MarbleMobile from "./pages/MarbleMobile";
+import OtherServicesMobile from "./pages/OtherServicesMobile";
+import WhyChooseUsMobile from "./pages/WhyChooseUsMobile";
 
 function App() {
   return (
-    <>
-      <Carousel />
-      <Nav />
-      <About />
-      <WhyChooseUs />
-      <OurServices />
-      <Carpet />
-      <Marble />
-      <OtherServices />
-      <Clients />
-      <PestControl />
-      <Contact />
-      <ContactForm />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<AboutMobile />} />
+      <Route path="/carpet-upholstery" element={<CarpetsUpholstery />} />
+      <Route path="/janitorial" element={<JanitorialMobile />} />
+      <Route path="/marble" element={<MarbleMobile />} />
+      <Route path="/other-services" element={<OtherServicesMobile />} />
+      <Route path="/why-choose-us" element={<WhyChooseUsMobile />} />
+    </Routes>
   );
 }
 

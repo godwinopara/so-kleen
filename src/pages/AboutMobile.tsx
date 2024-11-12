@@ -1,20 +1,20 @@
-import img1 from "../images/about.jpeg";
-import MobileLayout from "./MobileLayout";
+import Carousel from "../components/Carousel";
 
-function About() {
+const AboutMobile = () => {
   return (
-    <section
-      className="flex items-center xl:min-h-[120vh] max-w-[1150px] mx-auto xl:mb-20"
-      id="about"
-    >
-      <div className="hidden xl:block">
+    <>
+      <Carousel />
+      <div className="px-5 py-10">
         <div className="flex items-center justify-between mb-8">
-          <div className="w-[50%]">
+          <div>
             <div className="mb-8">
-              <h2 className="text-6xl mb-6 font-bold">
-                About Reds Cleaning Services
-              </h2>
-              <div className="text-xl">
+              <div className="mb-5">
+                <h2 className="text-3xl uppercase mb-2 font-bold xl:hidden">
+                  About Reds Cleaning Services
+                </h2>
+                <hr className="bg-red-600 h-[7px] w-[80px] xl:hidden" />
+              </div>
+              <div>
                 <p className="mb-3 font-semibold">
                   Reds Cleaning Services is a professional cleaning company
                   dedicated to brightening spaces and providing top-notch
@@ -31,9 +31,6 @@ function About() {
               </div>
             </div>
             <hr className="bg-red-500 h-[3px]" />
-          </div>
-          <div className="w-[42%]">
-            <img src={img1} alt="" />
           </div>
         </div>
         <p>
@@ -54,15 +51,8 @@ function About() {
           growth year after year.
         </p>
       </div>
-      <MobileLayout
-        title="About Us"
-        desc="Reds Cleaning Services is a professional cleaning company
-                  dedicated to brightening spaces and providing top-notch
-                  cleaning solutions."
-        url="/about"
-      />
-    </section>
+    </>
   );
-}
+};
 
-export default About;
+export default AboutMobile;

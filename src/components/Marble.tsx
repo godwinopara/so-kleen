@@ -82,6 +82,7 @@ const Marble = () => {
             advantage of our affordable marble restoration services, which are
             designed to restore the shine and mirror finish of your marble, no
             matter its age."
+        url="/marble"
       />
     </section>
   );

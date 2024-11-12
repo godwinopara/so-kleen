@@ -89,6 +89,7 @@ function OurServices() {
             to understand your requirements, create a customized cleaning plan,
             and provide the highest quality service, all while adhering to the
             best hygiene and safety practices."
+        url="/janitorial"
       />
     </section>
   );

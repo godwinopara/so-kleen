@@ -129,6 +129,7 @@ const WhyChooseUs = () => {
               team is dedicated to providing cleaning solutions that not only
               preserve but also enhance the beauty, functionality, and longevity
               of your premises."
+        url="/why-choose-us"
       />
     </section>
   );

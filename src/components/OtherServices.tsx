@@ -186,6 +186,7 @@ const OtherServices = () => {
               quality service, all while adhering to the best hygiene and safety
               practices. Your satisfaction is our priority, and we’ll ensure
               every detail is handled with care."
+        url="/other-services"
       />
     </section>
   );
