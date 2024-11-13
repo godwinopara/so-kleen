@@ -6,8 +6,11 @@ import { useState, useEffect } from "react";
 import herobg1 from "../images/hero-bg.jpeg"; // Update with the correct path
 import herobg2 from "../images/hero-bg2.jpeg"; // Update with the correct path
 import herobg3 from "../images/hero-bg3.jpeg"; // Update with the correct path
-import heroMobileBg1 from "../images/hero-mobile.jpeg";
-import heroMobileBg2 from "../images/hero-mobile2.jpeg";
+import heroMobileBg1 from "../images/hero-mobile.jpg";
+import heroMobileBg2 from "../images/hero-mobile2.jpg";
+import heroMobileBg3 from "../images/hero-mobile3.jpg";
+import heroMobileBg4 from "../images/hero-mobile4.jpg";
+import logo from "../images/logo.png";
 
 const slides = [
   {
@@ -29,7 +32,14 @@ const slides = [
     heading: "Trusted by Businesses & Homes",
     text: "With years of experience and a commitment to excellence, Reds Cleaning Services is the trusted choice for businesses and homeowners alike. We pride ourselves on customer satisfaction, ensuring every job is completed to the highest standards.",
     image: herobg3,
-    mobileImg: heroMobileBg1,
+    mobileImg: heroMobileBg3,
+  },
+  {
+    id: 4,
+    heading: "Comprehensive Cleaning Solutions",
+    text: "Whether you're a small business, large corporation, or government agency, Reds Cleaning Services offers customized cleaning solutions designed to meet your specific needs. Experience professional, reliable service that leaves your spaces spotless and well-maintained.",
+    image: herobg1,
+    mobileImg: heroMobileBg4,
   },
 ];
 
@@ -47,6 +57,9 @@ const Carousel = () => {
 
   return (
     <div className="relative w-screen min-h-[80vh] xl:h-[91vh] overflow-hidden">
+      <div className="hidden lg:block relative z-[200] top-5 left-[64px] w-[100px]">
+        <img src={logo} alt="" />
+      </div>
       <div className="absolute inset-0 transition-opacity duration-500">
         <img
           src={slides[currentIndex].image}
