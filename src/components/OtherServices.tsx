@@ -17,7 +17,7 @@ const OtherServices = () => {
           className=" w-full object-top object-cover lg:hidden"
         />
       </div>
-      <div className="hidden xl:block mb-10 max-w-[1150px] mx-auto">
+      <div className="hidden xl:block mb-10 max-w-[1150px] mx-auto xl:py-10">
         <div className="mb-10">
           <div className="">
             <h2 className="text-7xl mt-8 mb-8 font-bold">Other Services</h2>

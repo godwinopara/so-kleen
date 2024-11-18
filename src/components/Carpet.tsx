@@ -16,7 +16,7 @@ function Carpet() {
           className="lg:hidden w-full object-top object-cover"
         />
       </div>
-      <div className="hidden xl:block max-w-[1150px] mx-auto">
+      <div className="hidden xl:block max-w-[1150px] mx-auto xl:py-10">
         <div className="py-6">
           <h2 className="text-7xl mt-8 mb-8 font-bold">
             Carpet And Upholstery

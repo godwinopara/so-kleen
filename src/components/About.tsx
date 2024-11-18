@@ -4,10 +4,10 @@ import MobileLayout from "./MobileLayout";
 function About() {
   return (
     <section
-      className="flex items-center xl:min-h-[120vh] max-w-[1150px] mx-auto xl:mb-20"
+      className="flex items-center my-auto xl:min-h-[140vh] max-w-[1150px] mx-auto xl:mb-20"
       id="about"
     >
-      <div className="hidden xl:block">
+      <div className="hidden xl:block xl:pt-10">
         <div className="flex items-center justify-between mb-8">
           <div className="w-[50%]">
             <div className="mb-8">

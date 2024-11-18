@@ -9,7 +9,7 @@ const Marble = () => {
         <img src={img} alt="services img" className="hidden lg:block" />
         <img src={img2} alt="services img" className="block lg:hidden" />
       </div>
-      <div className="hidden xl:block max-w-[1150px] mx-auto mb-10">
+      <div className="hidden xl:block max-w-[1150px] mx-auto mb-10 py-10">
         <div className="py-6">
           <h2 className="text-7xl mt-8 mb-8 font-bold">Marble Restoration</h2>
 

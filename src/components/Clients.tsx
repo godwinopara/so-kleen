@@ -4,7 +4,7 @@ const Clients = () => {
   return (
     <section
       id="our-clients"
-      className="xl:grid grid-cols-2 items-center xl:min-h-[100vh] gap-x-20 max-w-[1150px] mx-auto"
+      className="xl:grid grid-cols-2 items-center xl:min-h-[100vh] xl:py-10 gap-x-20 max-w-[1150px] mx-auto"
     >
       <div>
         <div className="hidden xl:block">

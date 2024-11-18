@@ -56,7 +56,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="relative w-screen min-h-[80vh] xl:h-[91vh] overflow-hidden">
+    <div className="relative w-full min-h-[80vh] xl:h-[91vh] overflow-hidden">
       <div className="hidden lg:block relative z-[200] top-5 left-[64px] w-[100px]">
         <img src={logo} alt="" />
       </div>

@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
           className="w-full object-center object-cover lg:hidden"
         />
       </div>
-      <div className="xl:mb-10 max-w-[1150px] mx-auto">
+      <div className="xl:mb-10 max-w-[1150px] mx-auto xl:py-10">
         <div className="xl:mb-10">
           <div className="">
             <h2 className="hidden xl:block text-7xl mt-8 mb-8 font-bold">
