@@ -6,7 +6,7 @@ const PestControl = () => {
         <img
           src={img}
           alt="bug pro"
-          className="xl:h-auto w-full object-center object-contain xl:object-cover"
+          className="object-center object-contain  w-full"
         />
       </div>
       <div className="max-w-[1150px] mx-auto p-5 xl:p-0 xl:py-16">
