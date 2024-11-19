@@ -36,8 +36,8 @@ const MobileNav = () => {
   }, [showNav]);
 
   return (
-    <nav className="flex items-center justify-between px-5 py-3 lg:hidden">
-      <Link to="/" className="block w-[80px]">
+    <nav className="flex items-center justify-between px-5 py-2 lg:hidden">
+      <Link to="/" className="block w-[100px]">
         <img src={logo} alt="logo" />
       </Link>
       <ul

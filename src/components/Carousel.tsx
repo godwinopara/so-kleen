@@ -3,8 +3,8 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
 import { FiPhone } from "react-icons/fi";
 import { useState, useEffect } from "react";
-import herobg1 from "../images/hero-bg.jpeg"; // Update with the correct path
-import herobg2 from "../images/hero-bg2.jpg"; // Update with the correct path
+import herobg1 from "../images/hero-bg.webp"; // Update with the correct path
+import herobg2 from "../images/hero-bg.jpg"; // Update with the correct path
 import herobg3 from "../images/hero-bg3.jpg"; // Update with the correct path
 import herobg4 from "../images/hero-bg4.jpg"
 import heroMobileBg1 from "../images/hero-mobile.jpg";
@@ -12,6 +12,7 @@ import heroMobileBg2 from "../images/hero-mobile2.jpg";
 import heroMobileBg3 from "../images/hero-mobile3.jpg";
 import heroMobileBg4 from "../images/hero-mobile4.jpg";
 import logo from "../images/logo.png";
+import { Link } from "react-router-dom";
 
 const slides = [
   {
@@ -44,78 +45,148 @@ const slides = [
   },
 ];
 
-const Carousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+// const Carousel = () => {
+//   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Autoplay effect
+//   // Autoplay effect
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
+//     }, 5000); // Change image every 3 seconds
+
+//     return () => clearInterval(interval); // Cleanup on unmount
+//   }, []);
+
+//   return (
+//     <div className="relative w-full min-h-[80vh] xl:h-[91vh] overflow-hidden">
+//       <div className="hidden lg:block relative z-[200] top-5 left-[64px] w-[20%]">
+//         <img src={logo} alt="" />
+//       </div>
+//       <div className="absolute inset-0 transition-opacity duration-500">
+//         <img
+//           src={slides[currentIndex].image}
+//           alt={`Slide ${slides[currentIndex].id}`}
+//           className="hidden lg:block object-cover  object-right lg:object-center  w-full h-full"
+//         />
+//         <img
+//           src={slides[currentIndex].mobileImg}
+//           alt={`Slide ${slides[currentIndex].id}`}
+//           className="object-cover object-center w-full h-full"
+//         />
+//         <div className="absolute px-2 xl:px-0 bottom-32 left-5 xl:left-20 z-[150] flex items-center text-white">
+//           <div className="xl:w-[50%]">
+//             <h1 className="text-2xl xl:text-4xl font-bold mb-5">
+//               {slides[currentIndex].heading}
+//             </h1>
+//             <p className="max-w-[90%] xl:text-lg">
+//               {slides[currentIndex].text}
+//             </p>
+//           </div>
+//         </div>
+//         <div className="h-full w-full absolute inset-0 bg-black bg-opacity-30 z-[100]"></div>
+//         <div className="absolute bottom-3 z-[150] right-4 grid gap-y-2">
+//           <a
+//             href="tel:+14373762702"
+//             className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black"
+//           >
+//             <FiPhone />
+//           </a>
+//           <div className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black">
+//             <MdOutlineEmail />
+//           </div>
+//           <a
+//             href="https://wa.me/14373762702"
+//             target="_blank"
+//             rel="noreferrer"
+//             className="bg-green-600 flex items-center justify-center p-3 text-xl rounded-full text-white"
+//           >
+//             <IoLogoWhatsapp />
+//           </a>
+//         </div>
+//       </div>
+//       <div className="absolute bottom-4 z-[150] left-1/2 transform -translate-x-1/2 flex space-x-2">
+//         {slides.map((_, index) => (
+//           <span
+//             key={index}
+//             className={`h-3 w-3  bg-white rounded-full cursor-pointer transition-opacity duration-300 ${
+//               index === currentIndex ? "opacity-100" : "opacity-50"
+//             }`}
+//             onClick={() => setCurrentIndex(index)}
+//           />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Carousel;
+
+
+
+
+const Carousel = () => {
+  const [currentIndex, setCurrentIndex] = useState(0)
+
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
-    }, 5000); // Change image every 3 seconds
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length)
+    }, 5000);
 
-    return () => clearInterval(interval); // Cleanup on unmount
-  }, []);
+    return () => {
+      clearInterval(interval)
+    }
+  }, [])
+
+
+  const backgroundDesktopStyle = {
+    backgroundImage: `url(${slides[currentIndex].image})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center right",
+    backgroundRepeat: "norepeat",
+    backgroundColor: "black",
+  }
+
 
   return (
-    <div className="relative w-full min-h-[80vh] xl:h-[91vh] overflow-hidden">
-      <div className="hidden lg:block relative z-[200] top-5 left-[64px] w-[100px]">
-        <img src={logo} alt="" />
-      </div>
-      <div className="absolute inset-0 transition-opacity duration-500">
-        <img
-          src={slides[currentIndex].image}
-          alt={`Slide ${slides[currentIndex].id}`}
-          className="hidden lg:block object-cover object-right lg:object-center w-full h-full"
-        />
-        <img
-          src={slides[currentIndex].mobileImg}
-          alt={`Slide ${slides[currentIndex].id}`}
-          className="object-cover object-center w-full h-full"
-        />
-        <div className="absolute px-2 xl:px-0 bottom-32 left-5 xl:left-20 z-[150] flex items-center text-white">
-          <div className="xl:w-[50%]">
-            <h1 className="text-2xl xl:text-4xl font-bold mb-5">
-              {slides[currentIndex].heading}
-            </h1>
-            <p className="max-w-[90%] xl:text-lg">
-              {slides[currentIndex].text}
-            </p>
-          </div>
-        </div>
-        <div className="h-full w-full absolute inset-0 bg-black bg-opacity-30 z-[100]"></div>
-        <div className="absolute bottom-3 z-[150] right-4 grid gap-y-2">
-          <a
-            href="tel:+14373762702"
-            className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black"
-          >
-            <FiPhone />
-          </a>
-          <div className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black">
-            <MdOutlineEmail />
-          </div>
-          <a
-            href="https://wa.me/14373762702"
-            target="_blank"
-            rel="noreferrer"
-            className="bg-green-600 flex items-center justify-center p-3 text-xl rounded-full text-white"
-          >
-            <IoLogoWhatsapp />
-          </a>
-        </div>
-      </div>
-      <div className="absolute bottom-4 z-[150] left-1/2 transform -translate-x-1/2 flex space-x-2">
-        {slides.map((_, index) => (
-          <span
-            key={index}
-            className={`h-3 w-3  bg-white rounded-full cursor-pointer transition-opacity duration-300 ${
-              index === currentIndex ? "opacity-100" : "opacity-50"
-            }`}
-            onClick={() => setCurrentIndex(index)}
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
+    <header className="min-h-[80vh] relative xl:block xl:min-h-[90vh]">
+      <div className="absolute inset-0 h-full w-full " style={backgroundDesktopStyle}></div>
+      <div className="absolute bg-black inset-0 opacity-45 z-10 xl:hidden"></div>
+      <div className="max-w-[1150px] mx-auto ">
 
-export default Carousel;
+        <Link to="/" className="hidden z-10 relative w-[25%] xl:block">
+          <img src={logo} alt="logo" />
+        </Link>
+        <div className="z-10 p-8 text-white relative top-8 xl:w-[60%]">
+          <div className="hidden absolute bg-black inset-0 opacity-45 -z-10 xl:block"></div>
+          <h1 className="text-2xl xl:text-4xl font-bold mb-5">
+            {slides[currentIndex].heading}
+          </h1>
+          <p className="max-w-[90%] xl:text-lg">
+            {slides[currentIndex].text}
+          </p>
+        </div>
+      </div>
+      <div className="absolute bottom-3 z-50 right-4 grid gap-y-2">
+        <a
+          href="tel:+14373762702"
+          className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black"
+        >
+          <FiPhone />
+        </a>
+        <div className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black">
+          <MdOutlineEmail />
+        </div>
+        <a
+          href="https://wa.me/14373762702"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-green-600 flex items-center justify-center p-3 text-xl rounded-full text-white"
+        >
+          <IoLogoWhatsapp />
+        </a>
+      </div>
+    </header>
+  )
+}
+
+export default Carousel
