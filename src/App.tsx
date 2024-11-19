@@ -7,6 +7,7 @@ import MarbleMobile from "./pages/MarbleMobile";
 import OtherServicesMobile from "./pages/OtherServicesMobile";
 import WhyChooseUsMobile from "./pages/WhyChooseUsMobile";
 import MobileNav from "./components/MobileNav";
+import Social from "./components/Social";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/other-services" element={<OtherServicesMobile />} />
         <Route path="/why-choose-us" element={<WhyChooseUsMobile />} />
       </Routes>
+      <Social/>
     </>
   );
 }

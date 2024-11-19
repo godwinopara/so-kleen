@@ -1,11 +1,7 @@
-// src/Carousel.js
-import { IoLogoWhatsapp } from "react-icons/io";
-import { MdOutlineEmail } from "react-icons/md";
-import { FiPhone } from "react-icons/fi";
 import { useState, useEffect } from "react";
-import herobg1 from "../images/hero-bg.webp"; // Update with the correct path
-import herobg2 from "../images/hero-bg.jpg"; // Update with the correct path
-import herobg3 from "../images/hero-bg3.jpg"; // Update with the correct path
+import herobg1 from "../images/hero-bg.webp"; 
+import herobg2 from "../images/hero-bg.jpg"; 
+import herobg3 from "../images/hero-bg3.jpg"; 
 import herobg4 from "../images/hero-bg4.jpg"
 import heroMobileBg1 from "../images/hero-mobile.jpg";
 import heroMobileBg2 from "../images/hero-mobile2.jpg";
@@ -89,25 +85,7 @@ const Carousel = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-3 z-50 right-4 grid gap-y-2">
-        <a
-          href="tel:+14373762702"
-          className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black"
-        >
-          <FiPhone />
-        </a>
-        <div className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black">
-          <MdOutlineEmail />
-        </div>
-        <a
-          href="https://wa.me/14373762702"
-          target="_blank"
-          rel="noreferrer"
-          className="bg-green-600 flex items-center justify-center p-3 text-xl rounded-full text-white"
-        >
-          <IoLogoWhatsapp />
-        </a>
-      </div>
+      
       <div className="absolute bottom-4 z-[150] left-1/2 transform -translate-x-1/2 flex space-x-2">
         {slides.map((_, index) => (
           <span
