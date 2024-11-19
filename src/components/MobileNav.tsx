@@ -31,7 +31,7 @@ const MobileNav = () => {
     }
 
     return () => {
-      document.body.style.overflowY = "scroll";
+      document.documentElement.style.overflowY = "scroll";
     };
   }, [showNav]);
 

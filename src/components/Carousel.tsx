@@ -4,8 +4,9 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FiPhone } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import herobg1 from "../images/hero-bg.jpeg"; // Update with the correct path
-import herobg2 from "../images/hero-bg2.jpeg"; // Update with the correct path
-import herobg3 from "../images/hero-bg3.jpeg"; // Update with the correct path
+import herobg2 from "../images/hero-bg2.jpg"; // Update with the correct path
+import herobg3 from "../images/hero-bg3.jpg"; // Update with the correct path
+import herobg4 from "../images/hero-bg4.jpg"
 import heroMobileBg1 from "../images/hero-mobile.jpg";
 import heroMobileBg2 from "../images/hero-mobile2.jpg";
 import heroMobileBg3 from "../images/hero-mobile3.jpg";
@@ -38,7 +39,7 @@ const slides = [
     id: 4,
     heading: "Comprehensive Cleaning Solutions",
     text: "Whether you're a small business, large corporation, or government agency, Reds Cleaning Services offers customized cleaning solutions designed to meet your specific needs. Experience professional, reliable service that leaves your spaces spotless and well-maintained.",
-    image: herobg1,
+    image: herobg4,
     mobileImg: heroMobileBg4,
   },
 ];
@@ -50,7 +51,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
-    }, 3000); // Change image every 3 seconds
+    }, 5000); // Change image every 3 seconds
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
@@ -71,7 +72,7 @@ const Carousel = () => {
           alt={`Slide ${slides[currentIndex].id}`}
           className="object-cover object-center w-full h-full"
         />
-        <div className="absolute px-2 xl:px-0 bottom-40 left-5 xl:left-20 z-[150] flex items-center text-white">
+        <div className="absolute px-2 xl:px-0 bottom-32 left-5 xl:left-20 z-[150] flex items-center text-white">
           <div className="xl:w-[50%]">
             <h1 className="text-2xl xl:text-4xl font-bold mb-5">
               {slides[currentIndex].heading}
@@ -82,7 +83,7 @@ const Carousel = () => {
           </div>
         </div>
         <div className="h-full w-full absolute inset-0 bg-black bg-opacity-30 z-[100]"></div>
-        <div className="absolute bottom-3 z-[150] right-4 grid gap-y-2 xl:hidden">
+        <div className="absolute bottom-3 z-[150] right-4 grid gap-y-2">
           <a
             href="tel:+14373762702"
             className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black"
