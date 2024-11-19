@@ -1,7 +1,6 @@
 import About from "../components/About";
 import Carousel from "../components/Carousel";
 import Carpet from "../components/Carpet";
-import Clients from "../components/Clients";
 import Contact from "../components/Contact";
 import ContactForm from "../components/ContactForm";
 import Marble from "../components/Marble";
@@ -22,7 +21,6 @@ const HomeMobile = () => {
       <Carpet />
       <Marble />
       <OtherServices />
-      <Clients />
       <PestControl />
       <Contact />
       <ContactForm />
