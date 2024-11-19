@@ -30,7 +30,7 @@ const Nav: React.FC = () => {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="text-white text-sm uppercase hover:text-blue-500 transition-colors duration-200"
+                  className="text-white text-sm uppercase hover:text-[#FFB6C1] transition-colors duration-200"
                 >
                   {link.text}
                 </a>
