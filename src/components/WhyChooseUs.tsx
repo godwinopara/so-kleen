@@ -109,10 +109,8 @@ const WhyChooseUs = () => {
             <ul className="list-disc list-inside pl-8">
               <li>Integrity</li>
               <li>Professionalism</li>
-              <li>Innovation</li>
               <li>Responsibility</li>
               <li>Excellence</li>
-              <li>High level of productivity</li>
               <li>Team work</li>
             </ul>
           </div>
