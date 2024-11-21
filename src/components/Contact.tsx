@@ -3,7 +3,7 @@ import img from "../images/phone.png";
 const Contact = () => {
   return (
     <section className=" bg-neutral-200 p-8" id="contact">
-      <div className="xl:grid grid-cols-2 items-center max-w-[1150px] mx-auto">
+      <div className="xl:grid grid-cols-2 items-center max-w-[1100px] mx-auto">
         <div>
           <h2 className="hidden xl:block text-7xl mb-8">Contact Us</h2>
           {/* Mobile Content */}

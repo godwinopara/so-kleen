@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../images/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MouseEvent, useEffect, useState } from "react";
@@ -20,10 +20,16 @@ const navlinks: NavLink[] = [
 
 const MobileNav = () => {
   const [showNav, setShowNav] = useState(false);
+  const location = useLocation();
+
 
   const handleToggleNav = (e: MouseEvent<HTMLButtonElement>) => {
     setShowNav(() => !showNav);
   };
+
+  useEffect(() => {
+    setShowNav(false);
+  }, [location]);
 
   useEffect(() => {
     if (showNav) {
@@ -36,7 +42,7 @@ const MobileNav = () => {
   }, [showNav]);
 
   return (
-    <nav className="flex items-center justify-between px-5 py-2 lg:hidden">
+    <nav className="fixed top-0 left-0 w-full bg-white z-[1000] flex items-center justify-between px-5 py-2 lg:hidden">
       <Link to="/" className="block w-[100px]">
         <img src={logo} alt="logo" />
       </Link>
@@ -47,12 +53,12 @@ const MobileNav = () => {
       >
         {navlinks.map((link, index) => (
           <li key={index}>
-            <a
-              href={link.href}
+            <Link
+              to={link.href}
               className="text-sm uppercase hover:text-blue-500 transition-colors duration-200"
             >
               {link.text}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

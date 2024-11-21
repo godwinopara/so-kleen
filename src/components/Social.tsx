@@ -12,9 +12,9 @@ const Social = () => {
                 >
                     <FiPhone />
                 </a>
-                <div className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black">
+                <a href="mailto:info@redscleaning.org" className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black">
                     <MdOutlineEmail />
-                </div>
+                </a>
                 <a
                     href="https://wa.me/14373762702"
                     target="_blank"

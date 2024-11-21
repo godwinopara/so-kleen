@@ -9,7 +9,7 @@ function OurServices() {
         alt="services img"
         className="h-[493.233px] w-full object-top object-cover"
       />
-      <div className="hidden xl:block max-w-[1150px] mx-auto mb- xl:py-10">
+      <div className="hidden xl:block max-w-[1100px] mx-auto mb- xl:py-10">
         <div className="py-6">
           <h2 className="text-7xl mt-8 mb-8 font-bold">
             Janitorial/Office Cleaning

@@ -8,10 +8,12 @@ import OtherServicesMobile from "./pages/OtherServicesMobile";
 import WhyChooseUsMobile from "./pages/WhyChooseUsMobile";
 import MobileNav from "./components/MobileNav";
 import Social from "./components/Social";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
+    <ScrollToTop/>
       <MobileNav />
       <Routes>
         <Route path="/" element={<Home />} />

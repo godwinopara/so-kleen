@@ -1,7 +1,7 @@
 const ContactForm = () => {
   return (
     <section className="bg-red-600 text-white min-h-[90vh] py-20 flex items-center">
-      <div className="px-5 py-10 xl:p-0 xl:grid grid-cols-2 items-center gap-x-20 max-w-[1150px] mx-auto">
+      <div className="px-5 py-10 xl:p-0 xl:grid grid-cols-2 items-center gap-x-20 max-w-[1100px] mx-auto">
         <div>
           <p className="text-xl mb-10 xl:mb-0 xl:text-3xl xl:w-[85%]">
             We look forward to working with you. SAY HELLO, IT'S THE FIRST STEP
