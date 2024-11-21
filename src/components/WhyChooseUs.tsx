@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
             <hr className="bg-red-500 h-[3px] hidden xl:block" />
           </div>
         </div>
-        <div className="hidden xl:grid grid-cols-2 gap-x-10 ">
+        <div className="hidden xl:grid grid-cols-2 gap-x-20 ">
           <div>
             <p>
               At Reds Cleaning Services, we take great pride in treating your
@@ -102,16 +102,16 @@ const WhyChooseUs = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <h3 className="uppercase text-red-500 font-bold text-lg">
+          <div className="xl:ml-16">
+            <h3 className="uppercase text-red-500 mb-4 font-bold text-2xl">
               Our Core Values
             </h3>
-            <ul className="list-disc list-inside pl-8">
-              <li>Integrity</li>
-              <li>Professionalism</li>
-              <li>Responsibility</li>
-              <li>Excellence</li>
-              <li>Team work</li>
+            <ul className="list-disc list-inside grid gap-y-2 pl-3">
+              <li className="font-bold text-3xl">Integrity</li>
+              <li className="font-bold text-3xl">Professionalism</li>
+              <li className="font-bold text-3xl">Responsibility</li>
+              <li className="font-bold text-3xl">Excellence</li>
+              <li className="font-bold text-3xl">Team work</li>
             </ul>
           </div>
         </div>

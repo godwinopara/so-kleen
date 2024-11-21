@@ -2,9 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'Cambria';
+  src: url('./fonts/Cambria-Bold.eot');
+  src: local('Cambria Bold'), local('Cambria-Bold'),
+      url('./fonts/Cambria-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Cambria-Bold.woff2') format('woff2'),
+      url('./fonts/Cambria-Bold.woff') format('woff'),
+      url('./fonts/Cambria-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Cambria';
+  src: url('./fonts/Cambria.eot');
+  src: local('Cambria'),
+      url('./fonts/Cambria.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Cambria.woff2') format('woff2'),
+      url('./fonts/Cambria.woff') format('woff'),
+      url('./fonts/Cambria.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
 @layer base {
   html {
-    @apply overflow-x-hidden;
+    @apply overflow-x-hidden text-lg;
   }
   input {
     @apply bg-transparent border border-white block w-full py-3 px-5 rounded-sm;

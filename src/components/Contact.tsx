@@ -20,9 +20,13 @@ const Contact = () => {
               82 HEMAN STREET, M8V 1X5, ETIOBICOKE CANADA.
             </p>
           </div>
-          <div className="mb-8 xl:mb-0">
+          <div className="mb-8 xl:mb-5">
             <h4 className="font-bold text-xl">Email:</h4>
-            <p className="text-lg">office@redcleaningservices.com</p>
+            <p className="text-lg">info@redscleaning.org</p>
+          </div>
+          <div className="mb-8 xl:mb-0">
+            <h4 className="font-bold text-xl">Phone Number:</h4>
+            <p className="text-lg">+1(437)-376-2702</p>
           </div>
         </div>
         <div>
