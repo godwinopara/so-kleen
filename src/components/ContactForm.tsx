@@ -6,15 +6,19 @@ const ContactForm = () => {
   const form = useRef<HTMLFormElement | null>(null);
 
 
-  const sendEmail = async() => {
+  const sendEmail = async () => {
+    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+
     if (form.current) {
       try {
         await toast.promise(
-          emailjs.sendForm('service_redscleaning', 'redscleaning', form.current, {
-            publicKey: 'iP3NKffm5l64-YJgS',
+          emailjs.sendForm(serviceId!, templateId!, form.current, {
+            publicKey: publicKey!,
           }),
           {
-            loading: "Sending Message.....",
+            loading: "Sending Your Message...",
             success: "Your Message Was Sent Successfully",
             error: "Failed to send the message. Please try again!",
           }
@@ -26,7 +30,7 @@ const ContactForm = () => {
         console.error("Error sending email:", error);
       }
     }
-    
+
   }
 
   const submitForm = (e: FormEvent<HTMLFormElement>) => {
@@ -50,6 +54,7 @@ const ContactForm = () => {
               type="text"
               name="first_name"
               placeholder="Enter Your First Name"
+              required
             />
           </div>
           <div className="mb-5">
@@ -58,6 +63,7 @@ const ContactForm = () => {
               type="text"
               name="last_name"
               placeholder="Enter Your last Name"
+              required
             />
           </div>
           <div className="mb-5">
@@ -67,6 +73,7 @@ const ContactForm = () => {
               name="mobile"
               id="mobile"
               placeholder="Enter Your Phone Number"
+              required
             />
           </div>
           <div className="mb-5">
@@ -76,6 +83,7 @@ const ContactForm = () => {
               name="email"
               id="email"
               placeholder="Email Address"
+              required
             />
           </div>
           <div>
@@ -85,6 +93,7 @@ const ContactForm = () => {
               id="message"
               rows={6}
               placeholder="Enter A Message"
+              required
             ></textarea>
           </div>
           <button className="bg-white text-red-600 mt-8 h-[40px] rounded-sm w-[150px]">
