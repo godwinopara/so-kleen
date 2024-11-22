@@ -9,11 +9,13 @@ import WhyChooseUsMobile from "./pages/WhyChooseUsMobile";
 import MobileNav from "./components/MobileNav";
 import Social from "./components/Social";
 import ScrollToTop from "./components/ScrollToTop";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
     <>
-    <ScrollToTop/>
+      <Toaster position="top-right" reverseOrder={false} />
+      <ScrollToTop />
       <MobileNav />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,7 +26,7 @@ function App() {
         <Route path="/other-services" element={<OtherServicesMobile />} />
         <Route path="/why-choose-us" element={<WhyChooseUsMobile />} />
       </Routes>
-      <Social/>
+      <Social />
     </>
   );
 }

@@ -70,7 +70,7 @@ const Carousel = () => {
     <header className="min-h-[80vh] relative xl:block xl:min-h-[95vh]">
       <div className="absolute inset-0 h-full w-full " style={backgroundDesktopStyle}></div>
       <div className="absolute bg-black inset-0 opacity-45 z-10 xl:hidden"></div>
-      <div className="max-w-[1150px] mx-auto ">
+      <div className="max-w-[1100px] mx-auto ">
 
         <Link to="/" className="hidden z-10 relative w-[25%] xl:block">
           <img src={logo} alt="logo" />

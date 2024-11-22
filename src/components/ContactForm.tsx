@@ -1,4 +1,39 @@
+import { FormEvent, useRef } from "react";
+import emailjs, { sendForm } from '@emailjs/browser';
+import toast from "react-hot-toast";
+
 const ContactForm = () => {
+  const form = useRef<HTMLFormElement | null>(null);
+
+
+  const sendEmail = async() => {
+    if (form.current) {
+      try {
+        await toast.promise(
+          emailjs.sendForm('service_redscleaning', 'redscleaning', form.current, {
+            publicKey: 'iP3NKffm5l64-YJgS',
+          }),
+          {
+            loading: "Sending Message.....",
+            success: "Your Message Was Sent Successfully",
+            error: "Failed to send the message. Please try again!",
+          }
+        );
+
+        form.current.reset()
+      } catch (error) {
+        // Optional: Handle additional error behavior if needed
+        console.error("Error sending email:", error);
+      }
+    }
+    
+  }
+
+  const submitForm = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    sendEmail()
+  }
+
   return (
     <section className="bg-red-600 text-white min-h-[90vh] py-20 flex items-center">
       <div className="px-5 py-10 xl:p-0 xl:grid grid-cols-2 items-center gap-x-20 max-w-[1100px] mx-auto">
@@ -8,13 +43,21 @@ const ContactForm = () => {
             TO A STRONG PARTNERSHIP.
           </p>
         </div>
-        <form>
+        <form ref={form} onSubmit={submitForm}>
           <div className="mb-5">
-            <label htmlFor="fullname">Full Name</label>
+            <label htmlFor="first_name">First Name</label>
             <input
               type="text"
-              name="fullname"
-              placeholder="Enter Your Full Name"
+              name="first_name"
+              placeholder="Enter Your First Name"
+            />
+          </div>
+          <div className="mb-5">
+            <label htmlFor="last_name">Last Name</label>
+            <input
+              type="text"
+              name="last_name"
+              placeholder="Enter Your last Name"
             />
           </div>
           <div className="mb-5">
