@@ -16,7 +16,7 @@ const Social = () => {
                     <MdOutlineEmail />
                 </a>
                 <a
-                    href="https://wa.me/14373762702"
+                    href="https://wa.me/14379074600"
                     target="_blank"
                     rel="noreferrer"
                     className="bg-green-600 flex items-center justify-center p-3 text-xl rounded-full text-white"
