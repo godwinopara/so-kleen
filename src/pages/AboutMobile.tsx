@@ -21,7 +21,7 @@ const AboutMobile = () => {
                   cleaning solutions.
                 </p>
                 <p className="font-semibold">
-                  Founded in 2005, we’ve established ourselves as a trusted
+                  Founded in 2024, we’ve established ourselves as a trusted
                   leader in both commercial and residential cleaning. Our
                   services are tailored to address a wide range of cleaning
                   challenges, from light upkeep to more demanding dirt and grime

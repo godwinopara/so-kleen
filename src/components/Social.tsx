@@ -7,7 +7,7 @@ const Social = () => {
     return (
         <div className="fixed bottom-5 z-50 right-4 grid gap-y-2">
                 <a
-                    href="tel:+14373762702"
+                    href="tel:+14379074600"
                     className="bg-gray-200 flex items-center justify-center p-3 text-xl rounded-full text-black"
                 >
                     <FiPhone />
